@@ -1,0 +1,44 @@
+@media (min-width: 700px) {
+    .linear-maroon::before {
+        padding-top: 8rem;
+        content: 'ivokalendar@icloud.com';
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .linear-maroon::after {
+        content: 'Skopje, Macedonia';
+        display: grid;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .linear-maroon {
+        background: linear-gradient(
+            to bottom,
+            transparent,
+            transparent 60%,
+            rgba(128, 0, 0, 0.1) 60%,
+            rgba(128, 0, 0, 0.1) 65%,
+            transparent 65%,
+            transparent 70%,
+            rgba(128, 0, 0, 0.2) 70%,
+            rgba(128, 0, 0, 0.2) 75%,
+            transparent 75%,
+            transparent 80%,
+            rgba(128, 0, 0, 0.4) 80%,
+            rgba(128, 0, 0, 0.4) 85%,
+            transparent 85%,
+            transparent 90%,
+            rgba(128, 0, 0, 1) 90%,
+            rgba(128, 0, 0, 1) 95%,
+            transparent 95%
+        );
+        animation: scaleMaroon 1s ease-in forwards;
+    }
+
+    .slide-right {
+        animation: slideRightBcg 1.5s ease-out forwards;
+    }
+}

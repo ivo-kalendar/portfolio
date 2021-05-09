@@ -1,0 +1,27 @@
+@media (max-width: 700px) {
+    .header {
+        grid-template-columns: 1fr;
+    }
+
+    .mt-3 {
+        margin-top: 3rem;
+    }
+
+    .title-move-left {
+        transition: transform 1s ease-in-out;
+    }
+
+    .title-move-right {
+        transition: transform 1s ease-in-out;
+    }
+
+    .title-move-center {
+        transition: transform 1s ease-in-out;
+    }
+
+    .grid-2-reverse {
+        height: 10rem;
+        text-align: right;
+        margin: 0.5rem 0 5rem 0;
+    }
+}
